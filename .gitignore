@@ -36,4 +36,7 @@ transcribed_text/
 uploaded_audio/
 
 # PyInstaller
-*.spec 
+*.spec
+
+# Image files
+*.xcf 

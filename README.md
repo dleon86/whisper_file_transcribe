@@ -16,11 +16,17 @@ A Windows GUI application for transcribing audio files using OpenAI's Whisper sp
 ## Installation
 
 1. Clone or download this repository
-2. Install required dependencies:
-
+2. Create and activate a virtual environment:
+```
+python -m venv whisper_env
+whisper_env\Scripts\activate
+```
+3. Install required dependencies:
 ```
 pip install -r requirements.txt
 ```
+
+Note: The Whisper package is installed directly from the GitHub repository to ensure compatibility.
 
 ## Creating the Executable
 
@@ -53,7 +59,7 @@ Note: The first time you run the executable, it will download the Whisper model 
 
 - Python 3.7+
 - PyQt6
-- OpenAI Whisper
+- OpenAI Whisper (from GitHub)
 - PyTorch
 - Markdown
 
