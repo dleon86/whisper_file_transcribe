@@ -1,0 +1,7 @@
+whisper
+numpy
+PyQt6
+markdown
+tqdm
+torch 
+pyinstaller
